@@ -1,0 +1,47 @@
+# 本地工作区、个人配置与审阅材料
+.idea/
+.vscode/
+.settings/
+.metadata/
+.mxproject
+*.launch
+/firmware/firmware Debug.cfg
+/.submission-review/
+/Robot_HIL_Project.ioc
+
+# 由 STM32Cube FW_F1 V1.8.7 恢复的依赖
+/firmware/Drivers/
+/firmware/Middlewares/
+
+# 编译、仿真工作区与缓存
+Debug/
+Release/
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+*.log
+
+# 本地环境与凭据
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+.ssh/
+Thumbs.db
+.DS_Store
